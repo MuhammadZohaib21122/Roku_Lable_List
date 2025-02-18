@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="MainScene" extends="Scene">
+
+    <script type="text/brightscript" uri="MainScene.brs" />
+
+
+    <customization suspendhandler="customSuspend" />
+    <customization resumehandler="customResume" />
+    <interface>
+
+        <field id="inputArgs" type="assocarray" />
+        <field id="launchArgs" type="assocarray" />
+        <field id="rowListData" type="node" />
+
+
+        <field id="exitApp" type="boolean" alwaysNotify="true" />
+
+
+    </interface>
+
+    <children>
+
+
+        <Poster width="1920" height="1080" uri="pkg:/images/background_overlay.jpg" />
+
+        <LabelList
+            id="buttons_list"
+            translation="[40,200]"
+            itemSpacing="[ 0, 20 ]"
+            color="0xB4CCFF"
+            focusedColor="0xFFFFFF"
+            numRows="5"
+            itemSize="[250, 100]"
+            rowFocusAnimationStyle="floatingFocus"
+            textHorizAlign="left"
+            visible="true"
+            drawFocusFeedback="true"
+            focusBitmapBlendColor="0x00008B"
+        />
+
+
+    </children>
+</component>
