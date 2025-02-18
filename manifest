@@ -1,7 +1,7 @@
-title=ROKU Fireplace
+title=ROKU LableList
 major_version=1
 minor_version=1
-build_version=2
+build_version=1
 mm_icon_focus_hd=pkg:/images/logos/app_icon_hd.jpg
 mm_icon_focus_sd=pkg:/images/logos/app_icon_sd.jpg
 mm_icon_focus_fhd=pkg:/images/logos/app_icon_fhd.jpg
